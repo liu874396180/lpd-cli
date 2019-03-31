@@ -1,0 +1,28 @@
+{
+  "name": "lpd-cli",
+  "version": "1.0.3",
+  "description": "lpd-first-cli\u001b[D\u001b[D\u001b[\u001b[C\u001b[C\u001b\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C-cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.19.0",
+    "download-git-repo": "^1.1.0",
+    "inquirer": "^6.2.2",
+    "ora": "^3.2.0"
+  },
+  "bin": {
+    "lpd": "bin/lpd",
+    "lpd-add": "bin/lpd-add",
+    "lpd-delete": "bin/lpd-delete",
+    "lpd-list": "bin/lpd-list",
+    "lpd-init": "bin/lpd-init"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "lpd",
+  "license": "ISC"
+}
